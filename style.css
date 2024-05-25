@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.titulo{
+    padding:40px ;
+}
+
+nav ul{
+    width: auto;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #1286c9 ;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    padding: 20px;
+    width: 150px;
+}
+
+nav ul a:hover {
+    background-color: white;
+}
+
+.contenido{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido .mision div{
+    width: 100%;
+    padding: 15px;
+    background-color: #69b5e0;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contenido .vision div{
+    width: 100%;
+    padding: 15px;
+    background-color: #69b5e0;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+.slider-frame{
+    width: 720px;
+    height: 720px;
+    margin: 50px auto 0;
+    overflow: hidden;
+   
+
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.login-container a {
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.piepagina{
+    background-color: #0a476b;
+    margin-top: 100px;
+}
+
+.piepagina p {
+    padding: 100px;
+}
+
+.piepagina{
+    position: relative;
+    width:100% ;
+    background-color: #0a476b; 
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10PX);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem{
+    list-style: none;
+}
+
+.iconos{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: 0.3s; 
+}
+
+.iconos:hover{
+    opacity: 1;
+}
+
+.texto{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
